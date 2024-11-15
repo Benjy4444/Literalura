@@ -10,8 +10,8 @@ public class Book {
     private Long id;
     private String title;
     private String author;
-    private Integer birthYear; // Año de nacimiento del autor
-    private Integer deathYear; // Año de fallecimiento del autor, si corresponde
+    private Integer birthYear;
+    private Integer deathYear;
     private String language;
 
     public Long getId() {
@@ -64,12 +64,12 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", birthYear=" + birthYear +
-                ", deathYear=" + deathYear +
-                ", language='" + language + '\'' +
+        return "Libro{" +
+                "Título='" + title + '\'' +
+                ", Autor='" + author + '\'' +
+                ", Año de nacimiento=" + birthYear +
+                ", Año de fallecimiento=" + deathYear +
+                ", Lenguaje de la obra='" + language + '\'' +
                 '}';
     }
 }
